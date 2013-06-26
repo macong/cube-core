@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    font-family: Verdana,Simsun;
+    color: #000;
+    direction: ltr;
+    font-size:88% ; 
+    -webkit-font-smoothing: antialiased;
+    background-color: #FFF;
+}
+label {
+    color: #000;
+}
+a {
+    color: #2672EC;
+    cursor: pointer;
+    font-weight: inherit;
+    text-decoration: none;
+}
+input,select,textarea,button {
+    font-size: 100% ;
+    font-family: Microsoft Yahei,Verdana,Simsun;
+}
+/*firefox chrome css*/
+:root input[type="text"], :root input[type="password"], :root input[type="email"], :root input[type="number"], :root input[type="tel"], :root textarea {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.27);
+    color: #212121;
+    font-family: Microsoft Yahei,Verdana,Simsun;
+    font-size: 100%;
+    padding: 4px 8px;
+    width: 18.544em;
+}
+/*ie css*/
+input[type=text],input[type=password],input[type=email],input[type=tel] {
+    padding: 4px 8px;
+    height: 1.466em;
+    width: 302px;
+}
+:root input[type="text"]:focus, :root input[type="password"]:focus, :root input[type="email"]:focus, :root input[type="number"]:focus, :root input[type="tel"]:focus, :root textarea:focus{
+	border-color:rgba(0, 0, 0, 0.64);
+	outline:medium none;
+}
+/*按钮样式重置*/
+:root input.default[type="button"],:root input.default[type="submit"], :root button.default {
+    background-color: #2672EC;
+    color: #FFFFFF;
+}
+:root input[type="button"]:hover,:root input[type="submit"]:hover,:root button:hover.default {
+    background-color: #D4E3FB;
+}
+:root input[type=button]:active.default,:root input[type=submit]:active.default,:root button:active.default {
+    background-color: #212121;
+}
+:root input[type=button]:disabled,:root input[type=submit]:disabled,:root button:disabled {
+    background-color: rgba(202, 202, 202, 0.49) !important;
+    color: rgba(33, 33, 33, 0.49) !important;
+}
+:root input[type="button"], :root input[type="submit"], :root button {
+    background-color: rgba(182, 182, 182, 0.7);
+    border: 0 none;
+    color: #212121;
+    font-family: Microsoft Yahei,Verdana,Simsun;
+    font-size: 100%;
+    height: 2em;
+    min-width: 6em;
+    padding: 3px 12px 5px;
+}
+/*checkbox rado样式重置*/
+:root input[type="checkbox"], :root input[type="radio"] {
+    cursor: pointer;
+    float: left;
+    height: 19px;
+    margin: 0;
+    opacity: 0;
+    padding: 0;
+    position: absolute;
+    width: 19px;
+}
+:root input[type="checkbox"] + label {
+    background-position: left -38px;
+}
+:root input[type="checkbox"] + label, :root input[type="radio"] + label {
+	background-image: url("../images/login/controls.png"),url("../images/login/controls.png"),url("../images/login/controls.png");
+	background-repeat: no-repeat;
+    cursor: pointer;
+    display: inline-block;
+    height: 19px;
+    padding-left: 24px;
+}
+:root input[type="checkbox"]:checked + label {
+    background-position: left 38px, left -114px, left -38px;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 5px;
+    font-weight: normal;
+}
+h1, h2, h3 {
+    font-family: Microsoft Yahei,Verdana,Simsun;
+    font-size: 150%;
+}
+h1 {
+    color: #000000;
+}
+h1.cssSubHeader {
+    font-size: 2.55em;
+    line-height: 110%;
+    margin-bottom: 30px;
+}
+div.centerParent,td.centerParent {
+    text-align: center;
+}
+div.center,table.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+*{
+    line-height: 142% ;
+}
+div.floatLeft {
+    float: left;
+}
+div.signInHeader {
+    margin-left: 100px;
+}
+.errorDiv.firstError {
+    margin-top: 0;
+}
+.errorDiv, .editableLabel.error {
+    color: #C85305;
+    font-size: 86%;
+    line-height: 178%;
+    margin-bottom: 12px;
+    margin-top: 18px;
+    white-space: normal;
+}
+.signUpFloat {
+    position: absolute;
+    margin-left: 100px;
+    left: 0px;
+    bottom: 0px;
+}
+.TextSizeSmall {
+    font-size: 86%;
+}
+div.textbox, select {
+    width: 320px !important;
+}
+div.placeholder {
+    background-color: transparent;
+    color: #999999;
+    margin-left: 9px;
+    margin-top: 6px;
+    white-space: nowrap;
+}
+.inputstyle{
+	padding: 4px 8px;
+	width: 302px !important;
+	height: 1.466em;
+}
+.emptyInput{
+	color:#999999;
+}
+.container {
+    background: url("../images/login/header.jpg") repeat-x scroll left top transparent;
+    height: 86px;
+    top: 0;
+}
+.logo {
+    margin: auto;
+    padding-top: 40px;
+    width: 900px;
+}

@@ -1,0 +1,152 @@
+html,body{
+	padding:0;
+	margin:0;
+	height:100%;
+	width:100%;
+	overflow: hidden;
+	/*position: relative;*/
+}
+.m-container{
+	overflow: hidden;
+	position: relative;
+	width:100%;
+	height:100%;
+	padding: 0;
+	margin: 0;
+	top:0;
+	left:0;
+}
+.m-box-outer{
+	position: absolute;
+	padding:0;
+	margin:0;
+	overflow:hidden;
+}
+.m-box{
+	position:relative;
+}
+.m-box-resize{
+	position:absolute;
+	overflow:hidden;
+	background:transparent url(../images/lay/s.gif) no-repeat;
+
+	z-index:10;
+}
+.m-box-resize-x{
+	cursor:e-resize;
+}
+.m-box-resize-y{
+	cursor:n-resize;
+}
+
+.m-box-resize-icon-x,.m-box-resize-icon-y{
+	background:#eee url(../images/lay/tool-arrows.gif) no-repeat;
+	position:relative;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.m-box-resize-icon-x{
+	width:100%;height:15px;
+	top:50%;
+	margin-top:-7px;
+	background-position:-15px -60px;
+}
+.m-box-resize-icon-y{
+	width:15px;height:100%;
+	background-position:0 -60px;
+}
+
+.m-box-resize-moving{
+	background-color:#ccc;
+}
+
+.m-box-resize-mask{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	background-image:url(../images/lay/s.gif);
+	z-index:1000
+}
+
+.m-panel{
+	position:relative;
+	border:1px solid #909090;
+	z-index: 0;
+}
+.m-panel-header{
+	background:#eee url(../images/lay/panel-header.gif) 0 0 repeat-x;
+	border-bottom:1px solid #909090;
+	position:relative;
+	overflow:hidden;
+	height:25px;
+	line-height:25px;
+	-moz-user-select: none;
+	zoom:1;
+}
+
+.m-panel-main{
+	background:white;
+	position:relative;
+	overflow:auto;
+}
+
+.m-panel-collapsed-left,.m-panel-collapsed-right{
+	background:#f0f0f0;
+	overflow:hidden;
+	position:relative;
+	border:1px solid #909090;
+}
+
+.m-panel-collapsed-top,.m-panel-collapsed-bottom{
+	background:#f0f0f0;
+	overflow:hidden;
+	position:relative;
+	border:1px solid #909090;
+}
+
+.m-panel-collapsed-left-inner,.m-panel-collapsed-right-inner,.m-panel-collapsed-top-inner,.m-panel-collapsed-bottom-inner{
+	position: relative;
+	width:100%;
+	height:100%;
+}
+
+a.m-panel-toggle-left,a.m-panel-toggle-right,a.m-panel-toggle-top,a.m-panel-toggle-bottom{
+	position:absolute;
+	top:4px;
+	right:4px;
+	display:block;
+	cursor:hand;
+	width:15px;height:15px;
+	overflow:hidden;
+	background:transparent url(../images/lay/tool-arrows.gif) no-repeat;
+}
+
+a.m-panel-toggle-left{
+	background-position:0 -15px;
+}
+a.m-panel-toggle-right{
+	 background-position:0 0;
+}
+a.m-panel-toggle-top{
+	 background-position:0 -45px;
+}
+a.m-panel-toggle-bottom{
+	background-position:0 -30px;
+}
+
+a.m-panel-toggle-left:hover{
+	background-position:-15px -15px;
+}
+a.m-panel-toggle-right:hover{
+	 background-position:-15px 0;
+}
+a.m-panel-toggle-top:hover{
+	 background-position:-15px -45px;
+}
+a.m-panel-toggle-bottom:hover{
+	background-position:-15px -30px;
+}

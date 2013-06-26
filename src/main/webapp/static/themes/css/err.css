@@ -1,0 +1,51 @@
+.topui_error_bg {
+	background-color: #eef2fb;
+	padding-top:80px;
+}
+.topui_error {
+	width: 70%;
+	margin:auto;
+	padding: 20px 20px 20px 10px;
+	border: 1px solid #c2d1df;
+	background-color: #fff;
+    border-radius: 3px 3px 3px 3px;
+}
+.topui_error_box404 {
+	height: 235px;
+	padding-left: 195px;
+	background: url(../images/err/error_404.gif) no-repeat left;
+}
+.topui_error_box503 {
+	height: 235px;
+	padding-left: 195px;
+	background: url(../images/err/error_503.gif) no-repeat left;
+}
+.topui_error_box500 {
+	height: 235px;
+	padding-left: 195px;
+	background: url(../images/err/error_500.gif) no-repeat left;
+}
+.topui_error_boxErr {
+	height: 235px;
+	padding-left: 195px;
+	background: url(../images/err/error_err.gif) no-repeat left;
+}
+.topui_error_box_line {
+	border-bottom: 1px solid #c7c7c7;
+	margin-bottom: 5px;
+	padding-bottom:3px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 15px;
+	color: #3b5998;
+	padding-left: 10px;
+}
+.topui_error_box_line h1{
+	color: #21438b;
+	padding-bottom: 20px;
+}
+.topui_error_box_font{
+	color: #3b5998;
+	line-height: 20px;
+	padding-left: 10px;
+}
